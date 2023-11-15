@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Breiner Virguez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Breiner Virguez</h1>
+            <h2>Ingeniero de Software -  Tecnico en Computacion</h2>
+            <div class="redes">
+                <a href="https://web.facebook.com/breiner.virguez.54"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573017280980&text=Ingeniero+de+Software+-+Tecnico+en+Computacion"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/BreinerVirguez"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/breiner-virguez-8072b4294/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.figma.com/files/user/1238611627991007942?fuid=1238611627991007942"><i class="fa-brands fa-figma"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Breiner Ivan Virguez Vargas.</span> Soy programador actualmente estoy estudiando un tecnólogo en análisis y desarrollo de software,cuento con conocimientos en el área de mantenimiento a computadores, conocimiento en herramientas ofimáticas y bases de datos.</p>
+            <p></p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-05-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3017280980
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            breinervirguez.16@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Kra18a #78-17sur Bogota, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Analista de datos y programador junior</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-database"></i>
+                            <span>BASE DE DATOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-basketball"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-quran"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                            <span>CIBER
+                                SEGURIDAD</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-dragon"></i>
+                            <span>DIBUJO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML,PHP & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>DISEÑO WEB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Mantenimiento de equipos de computo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bases de datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Skills Porfesionales</h3>
+                    <div class="skill">
+                        <span>Proactividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pensamiento crítico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachiller Academico con enfasis en artes y humanidades</h4>
+                        <span class="casa">Rural Jose Celestino Mutis</span>
+                        <span class="fecha">2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico en soporte y mantenimiento a tecnologias de la informacion </h4>
+                        <span class="casa">Juan Bosco Obrero</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso en informatica manejo office</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">18/10/2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso especial en diseño y montaje de sistemas solares fotovoltaicos basicos </h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">28/11/2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Actualmente estudiando un tecnologo en analisis y desarrollo de software</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Soporte en sitio</h4>
+                        <span class="casa">Xorex</span>
+                        <span class="fecha"> Junio-2022-Agosto-2022 </span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Arquitecto desarrollador Java</h4>
+                        <span class="casa">Tecnology S.A </span>
+                        <span class="fecha">Agosto-2023 Julio-2024</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Consultorio en desarrollo de microservisios y desarrollo web </h4>
+                        <span class="casa">Gfi Colombia</span>
+                        <span class="fecha">Agosto-2024 Diciembre-2024</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador Junior</h4>
+                        <span class="casa">Globant</span>
+                        <span class="fecha"> Enero-2025-Noviembre-2025 </span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista de datos</h4>
+                        <span class="casa">Dico telecomunicaciones</span>
+                        <span class="fecha"> Enero-2026 Actualmente </span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Ciberseguridad</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Inmobiliaria-Capital-Homes</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto relojeria</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>WebsideBootrap</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Webside Dulces delicias</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>TECNOSPACE</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form>
+                        <div class="mb-3">
+                          <label for="nombres" class="form-label">Nombres</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="numero" class="form-label">Numero Telefonico</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Email</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tema" class="form-label">Tema</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">inquietud</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d421.42278486294265!2d-74.14310349322768!3d4.540112773270507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa1e66b03774b%3A0xcd2667d0c1a8924a!2sCra.%2018a%20%2378-17%2C%20Bogot%C3%A1!5e1!3m2!1ses-419!2sco!4v1700078785549!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://web.facebook.com/breiner.virguez.54"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573017280980&text=Ingeniero+de+Software+-+Tecnico+en+Computacion"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/BreinerVirguez"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/breiner-virguez-8072b4294/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.figma.com/files/user/1238611627991007942?fuid=1238611627991007942"><i class="fa-brands fa-figma"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
