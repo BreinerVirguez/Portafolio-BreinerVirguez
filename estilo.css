@@ -365,7 +365,7 @@ html{
 }
 .curriculum .fila .izquierda{
     border-right: 2px solid #252A2E;
-    animation: slideInLeft 1s ease-out;
+    animation: slideInLeft 2s ease-out;
 }
 @keyframes slideInLeft {
     from {
@@ -378,7 +378,7 @@ html{
 
 .curriculum .fila .derecha{
     border-left: 2px solid #252A2E;
-    animation: slideInRight 1s ease-out;
+    animation: slideInRight 2s ease-out;
 }
 @keyframes slideInRight {
     from {
