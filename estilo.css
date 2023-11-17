@@ -711,7 +711,28 @@ footer .arriba{
     position: relative;
     padding: 80px 0;
 }
+ .proyecto {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-out;
+        }
 
+        .proyecto:hover {
+            transform: translateY(-10px); /* Adjust the distance as needed */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+        }
+
+        .proyecto:hover .overlay {
+            opacity: 1;
+        }
 
 
 
